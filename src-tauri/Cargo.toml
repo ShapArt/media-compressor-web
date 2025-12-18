@@ -1,0 +1,15 @@
+[package]
+name = "media-compressor"
+version = "0.1.0"
+description = "Media compressor desktop app"
+authors = ["ShapArt"]
+edition = "2021"
+
+[dependencies]
+tauri = { version = "2.0.0-rc", features = ["shell"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.40", features = ["process", "macros", "rt"] }
+
+[build-dependencies]
+tauri-build = "2.0.0-rc"

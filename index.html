@@ -1,34 +1,47 @@
 <!doctype html>
-<html lang="ru"><meta charset="utf-8"><title>Media Compressor</title>
-<body>
-<h1>Media Compressor (Demo)</h1>
-<input id="file" type="file" accept="image/*,video/*" multiple>
-<pre id="log"></pre>
-<script type="module">
-// NOTE: для видео подключите ffmpeg.wasm (например @ffmpeg/ffmpeg) из CDN и вызовите transcode()
-const fileInput = document.getElementById('file');
-const log = (t)=>document.getElementById('log').textContent+=t+'\n';
+<html lang="ru">
+  <meta charset="utf-8" /><title>Media Compressor</title>
+  <body>
+    <h1>Media Compressor (Demo)</h1>
+    <input id="file" type="file" accept="image/*,video/*" multiple />
+    <pre id="log"></pre>
+    <script type="module">
+      // NOTE: для видео подключите ffmpeg.wasm (например @ffmpeg/ffmpeg) из CDN и вызовите transcode()
+      const fileInput = document.getElementById("file");
+      const log = (t) =>
+        (document.getElementById("log").textContent += t + "\n");
 
-fileInput.onchange = async() => {
-  for(const f of fileInput.files){
-    if(f.type.startsWith('image/')){
-      const img = await f.arrayBuffer();
-      const blob = await compressImage(new Blob([img],{type:f.type}), 0.8, 1920);
-      log(`Image: ${f.name} → ${(blob.size/1024).toFixed(1)} KB`);
-    }else if(f.type.startsWith('video/')){
-      log(`Video: ${f.name} — см. README по ffmpeg.wasm`);
-    }
-  }
-};
+      fileInput.onchange = async () => {
+        for (const f of fileInput.files) {
+          if (f.type.startsWith("image/")) {
+            const img = await f.arrayBuffer();
+            const blob = await compressImage(
+              new Blob([img], { type: f.type }),
+              0.8,
+              1920,
+            );
+            log(`Image: ${f.name} → ${(blob.size / 1024).toFixed(1)} KB`);
+          } else if (f.type.startsWith("video/")) {
+            log(`Video: ${f.name} — см. README по ffmpeg.wasm`);
+          }
+        }
+      };
 
-async function compressImage(file, quality=0.82, maxSide=1920){
-  const bmp = await createImageBitmap(file);
-  const scale = Math.min(1, maxSide/Math.max(bmp.width,bmp.height));
-  const canvas = new OffscreenCanvas(bmp.width*scale, bmp.height*scale);
-  const ctx = canvas.getContext('2d');
-  ctx.drawImage(bmp,0,0,canvas.width,canvas.height);
-  const blob = await canvas.convertToBlob({type:'image/jpeg', quality});
-  return blob;
-}
-</script>
-</body></html>
+      async function compressImage(file, quality = 0.82, maxSide = 1920) {
+        const bmp = await createImageBitmap(file);
+        const scale = Math.min(1, maxSide / Math.max(bmp.width, bmp.height));
+        const canvas = new OffscreenCanvas(
+          bmp.width * scale,
+          bmp.height * scale,
+        );
+        const ctx = canvas.getContext("2d");
+        ctx.drawImage(bmp, 0, 0, canvas.width, canvas.height);
+        const blob = await canvas.convertToBlob({
+          type: "image/jpeg",
+          quality,
+        });
+        return blob;
+      }
+    </script>
+  </body>
+</html>

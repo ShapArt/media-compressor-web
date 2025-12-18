@@ -1,0 +1,24 @@
+{
+  "presets": [
+    {
+      "name": "telegram-h264",
+      "container": "mp4",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "crf": 23,
+      "max_bitrate_kbps": 2500,
+      "audio_bitrate_kbps": 128,
+      "resolution": "1280x720"
+    },
+    {
+      "name": "instagram-story",
+      "container": "mp4",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "crf": 24,
+      "max_bitrate_kbps": 1500,
+      "audio_bitrate_kbps": 96,
+      "resolution": "1080x1920"
+    }
+  ]
+}

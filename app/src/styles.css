@@ -1,0 +1,100 @@
+:root {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  color: #f3f4f6;
+  background: radial-gradient(circle at 20% 20%, #1f2937, #0f172a 60%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.app-shell {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 20px 48px;
+}
+
+header h1 {
+  margin: 0 0 8px;
+}
+
+header p {
+  margin: 0;
+  color: #9ca3af;
+}
+
+.controls,
+.dropzone,
+.queue {
+  margin-top: 24px;
+}
+
+.dropzone-box {
+  border: 1px dashed #374151;
+  border-radius: 12px;
+  padding: 32px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.02);
+  color: #e5e7eb;
+}
+
+.dropzone-box input {
+  margin-top: 12px;
+}
+
+.queue-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.queue-item {
+  border: 1px solid #1f2937;
+  border-radius: 10px;
+  padding: 12px 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(31, 41, 55, 0.5);
+}
+
+.queue-item .meta {
+  color: #9ca3af;
+  font-size: 12px;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.preset-select {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  color: #e5e7eb;
+}
+
+select {
+  background: #1f2937;
+  color: #e5e7eb;
+  border: 1px solid #374151;
+  border-radius: 8px;
+  padding: 6px 8px;
+}
