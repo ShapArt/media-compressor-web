@@ -1,5 +1,9 @@
 :root {
-  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    sans-serif;
   color: #f3f4f6;
   background: radial-gradient(circle at 20% 20%, #1f2937, #0f172a 60%);
 }
