@@ -1,45 +1,38 @@
 # media-compressor-web
 
-[![Stars](https://img.shields.io/github/stars/ShapArt/media-compressor-web?style=for-the-badge)](https://github.com/ShapArt/media-compressor-web/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/ShapArt/media-compressor-web?style=for-the-badge)](https://github.com/ShapArt/media-compressor-web/commits/main)
-[![License](https://img.shields.io/github/license/ShapArt/media-compressor-web?style=for-the-badge)](https://github.com/ShapArt/media-compressor-web/blob/main/LICENSE)
+[![Stars](https://img.shields.io/github/stars/ShapArt/=for-the-badge)](https://github.com/ShapArt/media-compressor-web/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/ShapArt/=for-the-badge)](https://github.com/ShapArt/media-compressor-web/commits/main)
+[![License](https://img.shields.io/github/license/ShapArt/=for-the-badge)](https://github.com/ShapArt/media-compressor-web/blob/main/LICENSE)
 
 ## EN
-media-compressor-web — practical engineering project by ShapArt.
-
-This repository is part of a modern, portfolio-grade GitHub standard: strong structure, clear onboarding, and predictable contribution flow.
+Browser-side media compressor built with modern web tooling.
 
 ## RU
-media-compressor-web — practical engineering project by ShapArt.
+Browser-side media compressor built with modern web tooling.
 
-Этот репозиторий оформлен в современном portfolio-стиле: сильная структура, понятный старт и прозрачный процесс вклада.
+## Why this project matters / Зачем нужен проект
+- Focuses on practical media optimization workflows.
+- Balances quality, speed, and automation constraints.
+- Useful for creator tooling and content pipelines.
 
-## Highlights / Что важно
-- Fast onboarding with clear usage entry points.
-- Standardized `.github` health files and contribution rules.
-- Ready for scaling with CI, tests, and roadmap growth.
+## Best for / Для кого
+- Engineers who prefer pragmatic, documented workflows.
+- Portfolio reviewers evaluating implementation quality.
 
-## Tech Stack / Технологии
-- Practical implementation focus
-- Documentation-first workflow
-- Lightweight architecture
+## Quick Run / Быстрый запуск
+- Read repository-specific docs
+- Execute project commands as documented
 
-## Quick Start / Быстрый старт
-- Open project docs
-- Run repository-specific commands
+## Repository Compass / Навигация
+- README.md - product context and run flow.
+- .github/ - contribution standards, templates, CI policy.
+- Source directories - core implementation and assets.
 
-## Structure / Структура
-- `README.md` - overview and usage entry point.
-- `.github/` - policies, templates, workflow config.
-- Source directories - implementation and assets.
+## Topics / Темы
+$topics
 
-## Roadmap / Планы
-- Improve verification and automation coverage.
-- Expand examples and practical scenarios.
-- Keep docs synchronized with real behavior.
-
-## Contributing / Вклад
-See `.github/CONTRIBUTING.md`.
+## Contribution / Вклад
+See .github/CONTRIBUTING.md and open a focused PR.
 
 ## License / Лицензия
-See `LICENSE`.
+See LICENSE.
