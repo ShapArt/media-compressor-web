@@ -1,46 +1,52 @@
-# Media Compressor App (Tauri + React)
+# media-compressor-web
 
-## ✨ Что умеет
+![License](https://img.shields.io/github/license/ShapArt/media-compressor-web)
+![Last Commit](https://img.shields.io/github/last-commit/ShapArt/media-compressor-web)
+![Language](https://img.shields.io/github/languages/top/ShapArt/media-compressor-web)
 
-- Пакетное сжатие фото (JPEG/PNG/WebP/AVIF) и видео (H.264/H.265/VP9/AV1) под профили: Telegram/Stories/Email/Archive.
-- Drag & drop, предпросмотр «до/после», оценка экономии, очередь задач с паузой/возобновлением.
-- Аппаратные кодеки при наличии (nvenc/qsv/amf), авто-лимиты по целевому размеру/битрейту/CRF.
-- Сохранение EXIF/ICC по опции, авто-переименование и сохранение структуры каталогов.
-- Оффлайн: всё работает локально через системный FFmpeg.
+## EN Overview
+Browser-side media compressor (ffmpeg.wasm)
 
-## 🧠 Технологии
+## RU Описание
+Browser-side media compressor (ffmpeg.wasm)
 
-- Tauri v2 (Rust) + React/Vite UI, вызовы системного FFmpeg из Rust-команд.
-- Presets в `presets/*.yaml`, расчёт битрейта/размера на клиенте перед запуском.
-- Безопасность: secrets через `.env`, gitleaks в pre-commit/CI, минимальные GitHub Actions permissions.
+## EN Features
+- Clear project purpose and maintainable structure.
+- Standardized community and contribution files.
+- Consistent documentation style across account repositories.
 
-## 🖼️ Демо
+## RU Возможности
+- Понятная цель проекта и поддерживаемая структура.
+- Стандартизированные файлы сообщества и вклада.
+- Единый стиль документации во всех репозиториях аккаунта.
 
-- TODO: добавить GIF/скрин и ссылку на релиз/артефакт после сборки.
+## EN Quick Start
+Review repository files and docs for usage details.
 
-## Архитектура
+## RU Быстрый старт
+Review repository files and docs for usage details.
 
-- `app/` — React/Vite UI (дропзона, очередь, предпросмотр).
-- `src-tauri/` — Rust-команды для вызова FFmpeg, детекта кодеков и HW accel.
-- `presets/` — YAML профили (Telegram/YouTube/Instagram/Email/Archive).
-- `assets/` — social preview.
+## EN Project Structure
+- .github/ - templates, policy files, CI config.
+- Source files and assets are stored in repository root or feature directories.
 
-## Конфигурация
+## RU Структура проекта
+- .github/ - шаблоны, policy-файлы, конфиг CI.
+- Исходники и ресурсы находятся в корне или профильных директориях.
 
-- `.env.example` содержит `FFMPEG_BIN`, `HARDWARE_ACCEL`, `OUTPUT_DIR`, `PRESETS_DIR`.
-- Требуется установленный `ffmpeg` в PATH или указать путь явно.
+## EN Roadmap
+- Improve test coverage and automation.
+- Keep docs aligned with actual project behavior.
 
-## Тесты
+## RU Планы
+- Расширять покрытие тестами и автоматизацией.
+- Поддерживать документацию в актуальном состоянии.
 
-- Web: план — `npm run lint`, `npm run test` (Vitest) после инициализации Vite.
-- Desktop: план — `cargo fmt --check && cargo clippy` (после добавления src-tauri).
-- Сейчас тестов нет; добавить после scaffolding UI/commands.
+## EN Contributing
+See .github/CONTRIBUTING.md.
 
-## Roadmap
+## RU Вклад
+См. .github/CONTRIBUTING.md.
 
-- Инициализировать React/Vite + Tauri проект, добавить базовый UI очереди.
-- Реализовать Rust-команды: probe (ffprobe), transcode (ffmpeg), HW accel detection.
-- Определить набор пресетов и пример `presets/telegram.yaml`.
-- Добавить расчёт целевого битрейта/CRF и оценку размера до запуска.
-- Написать e2e smoke (Playwright) и tauri smoke build в CI.
-- Добавить сохранение EXIF/ICC (опционально) и проверку «не ухудшать разрешение».
+## License / Лицензия
+See LICENSE.
