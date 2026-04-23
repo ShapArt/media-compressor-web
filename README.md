@@ -7,32 +7,33 @@
 [![License](https://img.shields.io/github/license/ShapArt/=for-the-badge)](https://github.com/ShapArt/media-compressor-web/blob/main/LICENSE)
 
 ## RU
-Browser-side media compressor built with modern web tooling.
+**Слоган:** Компрессия прямо в браузере
 
-### Зачем этот проект
-- Оптимизация медиа и изображений для production
-- Ориентирован на практическое использование, а не «учебный шаблон».
-- Поддерживает единый стандарт качества профиля и репозиториев.
+Web-инструмент для сжатия медиа без сервера — быстро, удобно, безопасно.
+
+### Что даёт проект
+- Быстрый запуск и понятный вход в задачу.
+- Практичный сценарий использования, а не «игрушечный» демо-кейс.
+- Поддерживаемая структура для роста и автоматизации.
 
 ### Быстрый старт
-- Открой README и документацию
-- Запусти команды из раздела запуска
+- Открой README/структуру проекта.
+- Запусти команды из текущего репозитория.
+- Используй шаблоны в .github/ для стандартизированного вклада.
 
 ### Для кого
-- Разработчики backend/automation решений.
-- Команды, которым нужна понятная архитектура и предсказуемый запуск.
+- Инженеры, которым важен результат, а не шум.
+- Команды, ценящие скорость внедрения и качество кода.
 
 ## EN
-Browser-side media compressor built with modern web tooling.
+**Tagline:** Компрессия прямо в браузере
 
-### Why this project
-- Оптимизация медиа и изображений для production
-- Built for practical delivery, not just a demo.
-- Follows a consistent engineering quality standard.
+Browser-first media compression without server-side dependency.
 
-### Quick start
-- Read documentation
-- Run project-specific commands
+### Value proposition
+- Fast onboarding and clear project intent.
+- Production-minded structure for scaling and automation.
+- Consistent contribution and quality standards.
 
 ## Contribution
 See .github/CONTRIBUTING.md.
