@@ -2,46 +2,40 @@
 
 ![Social Preview](https://raw.githubusercontent.com/ShapArt/media-compressor-web/main/.github/social-preview.png)
 
-[![Stars](https://img.shields.io/github/stars/ShapArt/media-compressor-web?style=for-the-badge)](https://github.com/ShapArt/media-compressor-web/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/ShapArt/media-compressor-web?style=for-the-badge)](https://github.com/ShapArt/media-compressor-web/commits/main)
-[![License](https://img.shields.io/github/license/ShapArt/media-compressor-web?style=for-the-badge)](https://github.com/ShapArt/media-compressor-web/blob/main/LICENSE)
-
-## EN
-Browser-side media compressor built with modern web tooling.
+[![Stars](https://img.shields.io/github/stars/ShapArt/=for-the-badge)](https://github.com/ShapArt/media-compressor-web/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/ShapArt/=for-the-badge)](https://github.com/ShapArt/media-compressor-web/commits/main)
+[![License](https://img.shields.io/github/license/ShapArt/=for-the-badge)](https://github.com/ShapArt/media-compressor-web/blob/main/LICENSE)
 
 ## RU
 Browser-side media compressor built with modern web tooling.
 
-## Why this project matters / Зачем нужен проект
-- Focuses on practical media optimization workflows.
-- Balances quality, speed, and automation constraints.
-- Useful for creator tooling and content pipelines.
+### Зачем этот проект
+- Оптимизация медиа и изображений для production
+- Ориентирован на практическое использование, а не «учебный шаблон».
+- Поддерживает единый стандарт качества профиля и репозиториев.
 
-## Best for / Для кого
-- Engineers who prefer pragmatic, documented workflows.
-- Portfolio reviewers evaluating implementation quality.
+### Быстрый старт
+- Открой README и документацию
+- Запусти команды из раздела запуска
 
-## Quick Run / Быстрый запуск
-- Read repository-specific docs
-- Execute project commands as documented
+### Для кого
+- Разработчики backend/automation решений.
+- Команды, которым нужна понятная архитектура и предсказуемый запуск.
 
-## Repository Compass / Навигация
-- README.md - product context and run flow.
-- .github/ - contribution standards, templates, CI policy.
-- Source directories - core implementation and assets.
+## EN
+Browser-side media compressor built with modern web tooling.
 
-## Topics / Темы
-$topics
+### Why this project
+- Оптимизация медиа и изображений для production
+- Built for practical delivery, not just a demo.
+- Follows a consistent engineering quality standard.
 
-## Contribution / Вклад
-See .github/CONTRIBUTING.md and open a focused PR.
+### Quick start
+- Read documentation
+- Run project-specific commands
 
-## License / Лицензия
+## Contribution
+See .github/CONTRIBUTING.md.
+
+## License
 See LICENSE.
-
-
-
-
-
-
-
