@@ -1,44 +1,45 @@
 # media-compressor-web
 
-[![Stars](https://img.shields.io/github/stars/ShapArt/=for-the-badge)](https://github.com/ShapArt/media-compressor-web/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/ShapArt/=for-the-badge)](https://github.com/ShapArt/media-compressor-web/commits/main)
-[![License](https://img.shields.io/github/license/ShapArt/=for-the-badge)](https://github.com/ShapArt/media-compressor-web/blob/main/LICENSE)
+[![Stars](https://img.shields.io/github/stars/ShapArt/media-compressor-web?style=for-the-badge)](https://github.com/ShapArt/media-compressor-web/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/ShapArt/media-compressor-web?style=for-the-badge)](https://github.com/ShapArt/media-compressor-web/commits/main)
+[![License](https://img.shields.io/github/license/ShapArt/media-compressor-web?style=for-the-badge)](https://github.com/ShapArt/media-compressor-web/blob/main/LICENSE)
 
 ## EN
-Browser-side media compressor (ffmpeg.wasm)
+media-compressor-web — practical engineering project by ShapArt.
 
-This repository follows a modern professional standard: clear onboarding, strong documentation, and predictable contribution flow.
+This repository is part of a modern, portfolio-grade GitHub standard: strong structure, clear onboarding, and predictable contribution flow.
 
 ## RU
-Browser-side media compressor (ffmpeg.wasm)
+media-compressor-web — practical engineering project by ShapArt.
 
-Репозиторий оформлен по современному профессиональному стандарту: понятный старт, хорошая документация и предсказуемый процесс вклада.
+Этот репозиторий оформлен в современном portfolio-стиле: сильная структура, понятный старт и прозрачный процесс вклада.
 
-## Key Features / Ключевые возможности
-- Clear onboarding and practical setup steps.
-- Standard community health files in .github/.
-- Scalable structure for future improvements and CI growth.
+## Highlights / Что важно
+- Fast onboarding with clear usage entry points.
+- Standardized `.github` health files and contribution rules.
+- Ready for scaling with CI, tests, and roadmap growth.
 
 ## Tech Stack / Технологии
-- TypeScript
-- Lightweight project structure
+- Practical implementation focus
 - Documentation-first workflow
+- Lightweight architecture
 
 ## Quick Start / Быстрый старт
-- Review repository files`n- Run project-specific commands from docs
+- Open project docs
+- Run repository-specific commands
 
-## Project Layout / Структура
-- README.md - project overview and setup.
-- .github/ - policies, issue/PR templates, CI workflow.
-- Source files - implementation details and assets.
+## Structure / Структура
+- `README.md` - overview and usage entry point.
+- `.github/` - policies, templates, workflow config.
+- Source directories - implementation and assets.
 
 ## Roadmap / Планы
-- Improve verification and automated checks.
-- Expand examples and usage scenarios.
-- Keep documentation aligned with real behavior.
+- Improve verification and automation coverage.
+- Expand examples and practical scenarios.
+- Keep docs synchronized with real behavior.
 
 ## Contributing / Вклад
-See .github/CONTRIBUTING.md.
+See `.github/CONTRIBUTING.md`.
 
 ## License / Лицензия
-See LICENSE.
+See `LICENSE`.
